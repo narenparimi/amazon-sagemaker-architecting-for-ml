@@ -1,0 +1,31 @@
+Title : Shipping Vessel ID.
+
+Summary :
+Airbus has recruited your team to locate ships in satellite images, and put an aligned bounding box segment around the ships you locate. A long term contract will be provided to your team based on a Proof-of-Concept model that you provide to Airbus. Airbus has been doing most of their analytics and machine learning on-prem, in their own data centers, and is interested in learning about the advantages of using AWS Sagemaker for model training and hosting. Currently, Airbus is producing more satellite data than it can process, and is interested in an automated solution. 
+
+Approaches:
+
+Implementation :
+
+Create a S3 Bucket:
+  1. Go to AWS Console -> Storage -> S3 -> Create Bucket -> Name : "vision-team-aws-kc"
+  2. S3 Bucket Link : https://s3.console.aws.amazon.com/s3/buckets/vision-team-aws-kc/?region=us-east-1&tab=overview
+
+Create a shared git respository: 
+  1. Go to https://github.com/ -> create a new folder.
+  2. Git link : https://github.com/narenparimi/amazon-sagemaker-architecting-for-ml/
+
+Download the dataset:
+  1. Go to the Writeups link : https://tinyurl.com/yyhxbvab 
+  2. Download All 3.8 GB dataset from : https://www.kaggle.com/c/airbus-ship-detection/data 
+  3. Upload the dataset to S3 bucket : 
+
+Working with Jupyter Notebook:
+  1. Go to AWS SageMaker -> Notebook Instances -> locate "Naren-notebook" -> Open Jupyter : https://console.aws.amazon.com/sagemaker/home?region=us-east-1#/notebook-instances/openNotebook/naren-notebook?view=classic
+  2. 
+
+  
+
+
+
+Conclusion
